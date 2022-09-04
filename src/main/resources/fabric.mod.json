@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "crystalking",
+  "version": "${version}",
+
+  "name": "The Crystal King Mod",
+  "description": "Are you prepared to face the wrath of the Crystal King?",
+  "authors": [
+    "maxiderp","eoncaliber"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/maxiderp/The-Crystal-King-Mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/crystalking/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.maxiederp.crystalking.crystalKingMod"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
